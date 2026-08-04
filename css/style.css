@@ -4,25 +4,25 @@
    ============================================================ */
 
 :root{
-  --bg:            #F5F6EF;
+  --bg:            #F5F5F1;
   --bg-panel:      #FFFFFF;
-  --bg-alt:        #EAEDE0;
-  --bg-deep:       #0B4F45;
-  --bg-deeper:     #072F29;
+  --bg-alt:        #E9EAE3;
+  --bg-deep:       #0F2440;
+  --bg-deeper:     #071427;
 
-  --ink:           #16231E;
-  --ink-soft:      #4B5A52;
-  --ink-on-deep:   #EFF3EC;
-  --ink-on-deep-soft: #AFC3BB;
+  --ink:           #1A1F26;
+  --ink-soft:      #545B63;
+  --ink-on-deep:   #F0F1EC;
+  --ink-on-deep-soft: #A9B4C4;
 
-  --primary:       #0B4F45;
-  --primary-light: #1F7A67;
-  --accent:        #E0632E;
-  --accent-deep:   #B94A20;
-  --gold:          #D9A441;
+  --primary:       #13294B;
+  --primary-light: #3E5C82;
+  --accent:        #A9791F;
+  --accent-deep:   #8B611A;
+  --gold:          #D4AF63;
 
-  --line:          #D7DBC9;
-  --line-on-deep:  rgba(239,243,236,0.18);
+  --line:          #DBDCD4;
+  --line-on-deep:  rgba(240,241,236,0.18);
 
   --font-display:  'Fraunces', Georgia, 'Times New Roman', serif;
   --font-body:     'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
@@ -212,7 +212,7 @@ p{ margin:0 0 1em; }
 .seal::before{
   content:"";
   position:absolute; inset:12px;
-  border:1px dashed rgba(217,164,65,0.55);
+  border:1px dashed rgba(212,175,99,0.55);
   border-radius:50%;
 }
 .seal-inner{
